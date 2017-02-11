@@ -7,15 +7,27 @@
         table, th, td, caption {
             border: 1px solid black;
             border-collapse: collapse;
+            font-size: 25px;
         }
         th, td {
             padding: 5px;
+        }
+        table#t01 tr:nth-child(even) {
+            background-color: olivedrab;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: green;
+        }
+        table#t01 caption, th {
+            color: black;
+            background-color: lightblue;
         }
     </style>
 </head>
 <body>
 <h1>Esta es mi primera pagina</h1>
 <table>
+    <table id="t01">
     <caption>My study schedule</caption>
     <tr>
         <th>Hora</th>
@@ -26,14 +38,29 @@
         <th>Piano</th>
     </tr>
     <tr>
-    <th>5:00</th>
-    <th>Quimica</th>
+        <th>5:00</th>
+        <th>Quimica</th>
     </tr>
     <tr>
         <th>5:30</th>
         <th>Matematica</th>
     </tr>
-
+     <tr>
+         <th>6:00</th>
+         <th>Historia</th>
+     </tr>
+     <tr>
+         <th>6:30</th>
+         <th>Cena</th>
+     </tr>
+        <tr>
+            <th>7:00</th>
+            <th>Piano</th>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <th>Tareas y alistar</th>
+        </tr>
 
 </table>
 </body>
